@@ -31,7 +31,7 @@ and remove the top outliers from Ground Living Area columns. Besides removing th
 
 &nbsp;
 
-4. **Model Training**: This step involves training the selected model on the preprocessed 
+4. **Model Training**: This step involves training the selected model on the preprocessed
 
 
 &nbsp;
