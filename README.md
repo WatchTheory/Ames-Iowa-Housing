@@ -29,11 +29,32 @@ The project is organized into several key components:
 5. **Model Evaluation**: This step involves evaluating the trained model's performance on a holdout dataset using appropriate metrics such as MSE and RMSE. This may also involve visualizing the model's predictions and comparing them to the actual sale prices.
 
 
+## Model Performance 
+### Model Selction 
+For the project, I used Linear Regression as the main model. 
+I also created baseline models to evaluate my Linear Regression model performance. For the base models I used Ridge Regression, Hist Gradient Boosting Regression and Random Forest Regression.
+
+
+| Model |  RMSE   | R^2 
+|---    |----     |----
+Linear Regression   | 28,367 | 0.87 
+Ridge  Regression	| 44,202 | 0.62
+Boosting Regression | 39,570 | 0.70 
+Random Forest Regression | 34,974 | 0.76
+
+
+![alt text](predicted.png)
+
+
+
+
+
 ## Recommendation 
 - Tear down old homes that have been off the market for more than 8 year
-- Expanding homes and remodeling old house in Neighborhood such as BrkSide, Old Town, IDOTRR, SWISU, and Edwards
-	- Starting with houses that were built between late 1800's to 1910's
-	- include modern appliance like  A/C and Utilities attract buyers 
+- Expanding homes and remodeling old house in Neighborhood such as BrkSide, Old Town, IDOTRR, SWISU, and Edwards.
+	- Starting with houses that were built between late 1800's to 1910's.
+	- include modern appliance like  A/C and Utilities attract buyers. 
+
 
 
 
