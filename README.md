@@ -16,10 +16,18 @@ Create a baseline model using only 8 columns as features using other than linear
 
 The project is organized into several key components:
 
-1. **Data Preprocessing**: This step involves cleaning and transforming the raw data to prepare it for modeling. This includes handling missing values, encoding categorical variables, and scaling numerical features.
+1. **Data Preprocessing**: This step involves cleaning and transforming the raw data to prepare it for modeling.This includes removing and filling NaNa values, convertering numeric columns to float
+and remove the top outliers from Ground Living Area columns. Besides removing the top outliers, they were left in not interfere with the rest of columns 
 
 
-2. **Feature Engineering**: This step involves creating new features from existing ones to improve the model's predictive power. This may include interactions between features, polynomial features, or domain-specific transformations.
+
+
+2. **Feature Engineering**: This step involves creating new features from existing ones to improve the model's predictive power. This incluede create subsets of the data to break down for visulization, to create a base model and looking at these 
+
+
+
+
+
 
 3. **Model Selection**: This step involves selecting an appropriate machine learning algorithm or ensemble of algorithms to use for prediction. This may include linear regression, decision trees, random forests, or neural networks.
 
